@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: blue;
+}
+.warning{
+    font-size: 19px;
+}
+
+.menu{
+    border: 1px solid rgb(19, 17, 17);
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(209, 202, 202);
+    padding-left: 30px;
+    margin-top: 50px;
+}

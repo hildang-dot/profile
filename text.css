@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header.............................................................................................................. */
+header nav ul{
+   display: flex;
+   gap: 18px; 
+   /* justify-content: space-between; */
+   margin-left: 4%  ;
+   margin-top: 18px;
+
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ header nav .logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -40px;
+ 
+   }
+
+   header nav .logo{
+    margin-left: 190px;
+   }
+
+header nav{
+    display: flex;
+    gap: 50vh;
+    margin: 10px;
+    position: sticky;
+}
+
+header nav ul li a:hover{
+    color: blue;
+    transition-duration: 2s;
+    text-decoration: underline;
+}
+
+header nav .text{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+header{
+    /* background-color: rgb(14, 7, 34); */
+    background-image: url(great.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    background-attachment: fixed;
+    position: sticky;
+} 
+
+/* dropdown ...........................................................................................................*/
+.menu li{
+    position: relative;
+}
+.menu li a{
+    display: block;
+    padding: 14px 20px;
+    color: black;
+}
+
+.dropdown{
+    position: relative;
+    transition: all 0.5s ease;
+}
+.submenu{
+    display: block;
+     visibility: hidden;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 6px 6px;
+    /* top: -10%; */
+    opacity: 0;
+    transition: 2s;
+
+    
+}
+
+.submenu li a{
+    display: block;
+    padding: 12px 16px;
+    color: white;
+    white-space: nowrap;
+}
+.submenu li a:hover{
+    color: coral;
+    background-color: antiquewhite;
+    transition-duration: 1.3s;
+    border-radius: 20px;
+}
+
+.dropdown:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    z-index: 1;
+}
+ /* body............................................................................................. */
+ 
+p{
+    font-size: 110px;
+    text-align: center;
+    /* font-weight: bold; */
+    color: rgb(250, 196, 17);
+    text-shadow: red;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+/* background-image................................................................................................... */
+.body{
+    background-image: url(OIP.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    /* position: relative; */
+    
+    
+}
+/* body ....................................................................................................................*/
+.body .h1-h2{
+    text-align: center;
+    padding-top: 200px;
+    font-size: xx-large; 
+    font-weight: bold;
+    color: white;
+    opacity: 2;
+}
+
+.body .h1-h2 h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.body .h1-h2 h2{
+    font-size: 25px;
+}
+
+.btn .link{
+    padding: 10px;
+}
+
+.body .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/* btn............................................................................................ */
+
+.body .btn-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    
+    background-color: black;
+    margin-left: 70vh;
+    margin-right: 88vh;
+    height: 7vh;
+    border-radius: 20px;
+    width: 30%;
+    padding-top:6px;
+}
+
+.btn h1{
+    padding-top: 15px;
+}
+
+.btn-1{
+
+    background-color: black;
+    margin-left: 70vh;
+    margin-right: 70vh;
+    height: 7vh;
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 45px;
+    padding-top: 15px;
+}
+
+.btn-1:hover{
+    background-color:white;
+    color: white;
+}
+
+.btn-1 a:hover{
+    color: black;
+    transition-duration: 1.5s;
+}
+  .btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn a:hover{
+    color: black;
+    transition-duration: 1.5s;
+    
+}
+/* section....................................................................................................... */
+
+.section p{
+    font-size: 30px;
+}
+
+.section{
+    background-color: black;
+    display: flex;
+ justify-content: space-between;
+}
+
+.section i{
+    color: yellow; 
+}
+
+.icons{
+    width: 80px;
+}
+
+.road .p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.finder{
+    width: 900px;
+    height: 20vh;
+    display: flex;
+    position: absolute;
+    bottom: -196px;
+    margin-left: 100px;
+}
+
+.finder a{
+background-color: white;
+color: black;
+border: none;
+box-shadow: 10px 2px 15px 5px;
+font-size: 30px;
+text-decoration: none;
+padding-top: 30px;
+}
+
+.finder a:hover{
+background-color: red;
+color: white;
+}
+
+.auto{
+   height: 60vh;
+background-color: rgb(214, 213, 213);
+}
+
+
+.class{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.pen{
+    margin: 60px;
+}
+
+.hen{
+    margin-top: 60px;
+   margin-left:-40px ;
+}
+
+.price{
+    background-color: white;
+    margin-top: 20px;
+      margin-left: 20px;
+      width: 260px;
+      height: 110px;
+      border-radius: 5px;
+      text-align: justify;
+}
+.price :hover{
+    text-decoration:  underline;
+    
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.price1{
+    background-color: white;
+    margin-top: 20px;
+      margin-left: 20px;
+}
+.price2{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.green {
+color: black;
+display: flex;
+font-weight: bolder;
+margin-left: 300px;
+
+}
+
+.auto1 p{
+    font-size: 13px;
+    color: blue;
+}
+
+.green p{
+    font-size: 15px;
+    color: rgb(161, 157, 157);
+    
+}
+
+.green h1{
+    font-size: 18px;
+}
+
+.repair p{
+font-size: 15px;
+color: rgb(182, 172, 172);
+text-align: justify;
+}
+
+.repair{
+    display: flex;
+    gap: 690px;
+    background-color: rgb(29, 27, 27);
+    color: rgb(177, 167, 167);
+    font-family: clip;
+}
+
+.engine p{
+    font-size: 22px;
+    color: black;
+}
+
+.services{
+    display: flex;
+    text-align: justify;
+    gap: 10px;
+   background-color: rgb(29, 27, 27);
+   height: 69vh;
+}
+
+.engine{
+     width: 40vh;
+     height: 59vh;
+     background-color: rgb(247, 241, 241);
+     margin-left: 60px;
+     text-align: justify;
+     margin-top: 60px;
+    
+}
+
+.his{
+    font-size: 13px;
+    color: gray;
+    padding-top: 60px;
+  
+
+}
+.her{
+    background-color:white;
+    margin-top: 14px;
+    margin-left: 2dvh;
+    
+}
+
+.test{
+    display: flex;
+    margin-top: 90px;
+    height: 30vh;
+}
+
+.span{
+    font-weight: bold;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.game{
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border: none;
+    
+}
+
+.clow{
+    background-color:rgb(248, 243, 243);
+    margin-top: 50px;
+    height: 70vh;
+}
+
+.clow h1{
+  padding-top:70px ;
+  font-size: 50px;
+  color: red;
+}
